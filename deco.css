@@ -47,7 +47,26 @@ align-items: center;
 
 }
 .qui {
-    
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-items: center;
+align-items: center;
 
 }
 
+.afrique {
+    width: 500px;
+}
+
+.sthetoscope{
+    width: 500px;
+}
+
+.profil{
+    width: 400px;
+}
+
+.quoi{
+    display: grid;
+    grid-auto-columns: auto;
+}
