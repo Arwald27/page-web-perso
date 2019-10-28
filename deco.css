@@ -6,7 +6,7 @@ font-family:'Orbitron', sans-serif ;
 
 #bandeau {
     font-family: 'Orbitron', sans-serif;
-    color: crimson;
+    color: rgb(19, 89, 196);
     font-size: 300%;
     text-shadow: 2px 2px 2px white ;
     text-transform: uppercase;
@@ -14,7 +14,7 @@ font-family:'Orbitron', sans-serif ;
 }
 
 body {
-    background-image: radial-gradient(circle at center, #B5670C, black );
+    background-color: black;
     color
 }
 
@@ -37,10 +37,13 @@ body {
 }
 .contacts{
     width: 200px;
+    
 }
 .icônes{
 display: grid;
 grid-template-columns: repeat(4, 1fr);
+justify-items: center;
+align-items: center;
 
 }
 .qui {
