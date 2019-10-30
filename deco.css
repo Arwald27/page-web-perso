@@ -15,7 +15,8 @@ font-family:'Orbitron', sans-serif ;
 
 body {
     background-color: black;
-    color
+    margin: 30px;
+    
 }
 
 .text {
@@ -66,7 +67,33 @@ align-items: center;
     width: 400px;
 }
 
+
 .quoi{
     display: grid;
-    grid-auto-columns: auto;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+    
+.photo{
+    width: 200px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.fb{
+    width: 250px;
+}
+
+.insta{
+    width: 250px;
+}
+
+.linkedin{
+    width: 250px;
 }
